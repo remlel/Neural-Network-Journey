@@ -1,0 +1,40 @@
+# Environnements Python
+
+.venv/
+venv/
+env/
+
+# Cache Python
+
+**pycache**/
+*.pyc
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Modèles PyTorch
+
+*.pth
+
+# Datasets
+
+*.npy
+*.zip
+
+# Dataset HAR
+
+HAR/UCI HAR Dataset/
+
+# Dataset Radar éventuel
+
+*.npz
+
+# Fichiers système Windows
+
+Thumbs.db
+Desktop.ini
+
+# Fichier de notes personnelles
+
+Notes_IA.ipynb
