@@ -8,7 +8,14 @@ The purpose of this project is to track my progression through concrete problems
 
 ## 🚀 Projects Overview
 
-### 1. Topological Binary Classification (Two Moons)
+### 1. Micrograd Clone (Autograd Engine from Scratch)
+* **Objective:** Understand the absolute mathematical foundations of Deep Learning by implementing a scalar-valued automatic differentiation engine from scratch.
+* **Implementation:** Built a custom `Value` class capable of storing scalar values, building a dynamic Directed Acyclic Graph (DAG) of mathematical operations, and executing the **Chain Rule** via a manual `.backward()` function.
+* **Validated Concepts:** Forward/Backward pass mechanics, derivative formulas of basic operators (+, *, tanh, ...), and manual gradient descent without any high-level library (like PyTorch).
+
+---
+
+### 2. Topological Binary Classification (Two Moons)
 * **Objective:** Trace a non-linear decision boundary on a two-dimensional asymmetric dataset (red and blue points shaped like interlocking half-moons).
 * **Architecture:** Classic Deep Multilayer Perceptron (MLP) with non-linear activations (ReLU).
 * **Validated Concepts:** Gradient backpropagation, weight initialization, decision boundary intuition.
@@ -19,7 +26,7 @@ The purpose of this project is to track my progression through concrete problems
 
 ---
 
-### 2. Human Activity Recognition (UCI HAR Dataset)
+### 3. Human Activity Recognition (UCI HAR Dataset)
 * **Objective:** Classify 6 distinct human activities (walking, walking upstairs, walking downstairs, sitting, standing, laying) using inertial sensors (tri-axial accelerometer and gyroscope) from a smartphone.
 * **Approach 1 (Statistical Features):** Training a dense linear network on a 2D tensor containing 561 pre-computed statistical features (means, standard deviations, etc.).
     * **Performance:** **96.4% accuracy** on the test set.
@@ -32,7 +39,7 @@ The purpose of this project is to track my progression through concrete problems
 
 ---
 
-### 3. Radar Target Classification (Micro-Doppler Signatures)
+### 4. Radar Target Classification (Micro-Doppler Signatures)
 * **Objective:** Identify 4 types of moving targets (vehicle, pedestrian, cyclist, UAV/drone) from real-world radar acquisitions (Open Radar Initiative).
 * **Technical Pipeline:** Temporal slicing of variable-length trajectories (*tracks*) into fixed windows of 10 spectra ($1008 \times 10$) and full pipeline migration to GPU CUDA.
 * **Representation Learning:** Comparative evaluation of input signal geometry:
@@ -44,3 +51,7 @@ The purpose of this project is to track my progression through concrete problems
 | Confusion Matrix - 2D ResNet (89%) |
 | :---: |
 | ![Confusion Matrix](images/mc_Radar.png) |
+
+---
+
+
