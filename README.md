@@ -57,7 +57,6 @@ The purpose of this project is to track my progression through concrete problems
 ## 📚 References & Acknowledgments
 
 * **Micrograd Project:** Personally re-implemented based on Andrej Karpathy's educational [micrograd](https://github.com/karpathy/micrograd) repository ("From Zero to Hero" series). Licensed under MIT.
-
 > **MIT License (MIT) Copyright (c) 2020 Andrej Karpathy**
 
 
@@ -71,7 +70,7 @@ The purpose of this project is to track my progression through concrete problems
   howpublished = {UCI Machine Learning Repository},
   note         = {{DOI}: https://doi.org/10.24432/C54S4K}
 }
-
+```
 
 * **Open Radar Dataset:** Dataset provided by the Open Radar Initiative. 
 
@@ -82,3 +81,4 @@ booktitle={2021 IEEE International Radar Conference (RADAR)},
 title = {{Open Radar Initiative : Large Scale Dataset for Benchmarking of micro-Doppler Recognition Algorithms}},
 year={2021},
 }
+```
