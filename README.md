@@ -54,4 +54,31 @@ The purpose of this project is to track my progression through concrete problems
 
 ---
 
+## 📚 References & Acknowledgments
 
+* **Micrograd Project:** Personally re-implemented based on Andrej Karpathy's educational [micrograd](https://github.com/karpathy/micrograd) repository ("From Zero to Hero" series). Licensed under MIT.
+
+> **MIT License (MIT) Copyright (c) 2020 Andrej Karpathy**
+
+
+* **UCI HAR Dataset:** Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. *A Public Domain Dataset for Human Activity Recognition Using Smartphones*. 21st European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013.
+
+```bibtex
+@misc{human_activity_recognition_using_smartphones_240,
+  author       = {Reyes-Ortiz, Jorge, Anguita, Davide, Ghio, Alessandro, Oneto, Luca, and Parra, Xavier},
+  title        = {{Human Activity Recognition Using Smartphones}},
+  year         = {2013},
+  howpublished = {UCI Machine Learning Repository},
+  note         = {{DOI}: https://doi.org/10.24432/C54S4K}
+}
+
+
+* **Open Radar Dataset:** Dataset provided by the Open Radar Initiative. 
+
+```bibtex
+@INPROCEEDINGS{Gusland,
+author = {Gusland, Daniel and Christiansen, Jonas M and Torvik, B{\o}rge and Fioranelli, Francesco, and Gurbuz, Sevgi and Ritchie, Matthew},
+booktitle={2021 IEEE International Radar Conference (RADAR)}, 
+title = {{Open Radar Initiative : Large Scale Dataset for Benchmarking of micro-Doppler Recognition Algorithms}},
+year={2021},
+}
